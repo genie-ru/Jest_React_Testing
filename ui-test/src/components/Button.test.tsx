@@ -7,5 +7,6 @@ describe("Button", () => {
 
     const element = screen.getByRole("button");
     expect(element).toBeInTheDocument();
+    expect(element).toHaveTextContent("ボタン");
   })
 })

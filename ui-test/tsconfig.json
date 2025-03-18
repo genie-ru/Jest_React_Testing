@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx" // または "react"、使用する React のバージョンに応じて選択
+    "jsx": "react-jsx",
+    "types": ["@testing-library/jest-dom", "jest"] // または "react"、使用する React のバージョンに応じて選択
   },
   "files": [],
   "references": [
